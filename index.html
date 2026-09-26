@@ -4,9 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+      .main {
+        background-color: antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+      }
+
+      .right.side {
+        display: flex;
+        gap: 8px;
+      }
+
+      .btn {
+        border: none;
+        border-radius: 30px;
+        color: black;
+        font-size: larger;
+        background-color: transparent;
+        border-color: yellow;
+      }
+
+      li a {
+        text-decoration: none;
+        color: #17170c;
+        font-size: 16px;
+      }
+      .container{
+        width: 100vh;
+        height:70vh ;
+        border: 5px solid yellow;
+
+      }
+      .contain aside{
+        height: inherit;
+        width: 70%;
+        border: 3px solod red;
+        overflow: auto;
+      }
+      .content-box{
+        height: inherit;
+        width: 60%;
+        border: 2px solid blue;
+        overflow: auto;
+      }
+      .main{
+        overflow: auto;
+      }
+
+    </style>
 </head>
+
 <body>
-  <h2>vercel html</h2>  
+  <div class="containee">
+    
+  </div>
+
+  <h2>vercel html</h2>
   <a href="second_home.html">go to second page</a>
+
+  <nav class="main">
+
+    <img src="https://png.pngtree.com/png-clipart/20200710/original/pngtree-natural-flower-logo-png-image_4135636.jpg"
+         alt=""
+         height="50px"
+         width="50px">
+
+    <ul class="ul">
+      <li><a href="">home</a></li>
+      <li><a href="">contact</a></li>
+      <li><a href="">view</a></li>
+      <li><a href="">reach out</a></li>
+    </ul>
+
+    <div class="right side">
+      <button class="btn">login</button>
+      <button class="btn">signup</button>
+    </div>
+
+  </nav>
+
+  <div class="container">
+    <aside>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, omnis quos laboriosam impedit vero necessitatibus illum, enim debitis unde consectetur? Ipsum debitis error neque totam.
+    </aside>
+    <div class="content-box"></div>
+    <div clas="asid"></div>
+  </div>
+  
+
 </body>
 </html>
